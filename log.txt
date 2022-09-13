@@ -1,0 +1,31 @@
+< --------------------------- >
+< Daily Stand Up              >
+< Tue Sep 13 10:25            >
+< --------------------------- >
+
+1. yesterday: reviewed past labs and css, planned my site more, researched my apis, prepared my html skeleton to start styling the page in css
+2. today: im going start the basic css, then create the unpopulated nav bar, then start creating the pages that will be inside the navbar then add them to the nav bar.
+3. blockers: review css to style the page before i populate it via js, reviewing grid box 
+
+< --------------------------- >
+<                             >
+< --------------------------- >
+> 12:21 putting html hardcode into js
+> index.html removing h1 and h2 and title metadata
+> main.js adding our h1 and h2
+> selecting our destination for starterH1 & starterH2 ( header and article class=page-content )
+> appending
+> success
+> pushing ' putting html hardcode into js ' 
+> - - - - - - - - - - -  plan >
+> putting html hardcode into js [ X ]
+> put stories inside log file [ X ]
+> set up the css grid layout, create temp bright colors for clear indicators
+> 3 items: header, main, footer
+> after: make the empty nav bar
+> create the pages that will be on the navbar: Home, 
+> api implemntiation:
+> on every form submission ( form with be a modale { concept traine taught me yesterday} that pops up after x amount of time on page OR x action happened, will ask for users name and email.
+> - - - - - - - - - - - - - - >
+new proposals:
+on page arrival, will be blank black screen. on mouse movement or key stroke, will present a modal ( animation , computer screen style of text: what is your name: )

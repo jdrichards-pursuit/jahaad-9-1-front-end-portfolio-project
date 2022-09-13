@@ -9,3 +9,17 @@ fetch(FULL_URL_QUOTES)
 .then(res => {
     console.log(res)
 })
+
+// adding our h1 and h2
+    const starterH1 = document.createElement('h1')
+    starterH1.textContent = 'Frontend Portfolio Project'
+    const starterH2 = document.createElement('h2')
+    starterH2.textContent = 'Jahaad Petty'
+
+    // selecting our destination for starterH1 & starterH2 ( header and article class=page-content )
+    const header = document.querySelector('.page-header')
+    const pageContent = document.querySelector('.page-content')
+
+    // appending
+    header.append(starterH1)
+    pageContent.append(starterH2)
