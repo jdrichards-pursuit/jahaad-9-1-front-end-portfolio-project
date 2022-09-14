@@ -35,3 +35,17 @@ fetch(FULL_URL_QUOTES)
     
     // appending
     footer.append(starterFooter)
+
+// adding the empty nav bar
+
+    // first the element ( list )
+    const starterNavBarItem = document.createElement('a')
+    starterNavBarItem.href = '#'
+    starterNavBarItem.textContent = 'Example'
+
+    // selecting our navbar aside
+    const navBar = document.querySelector('.navbar')
+
+    // apending
+    navBar.append(starterNavBarItem)
+    
