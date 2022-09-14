@@ -42,8 +42,10 @@
     starting 922 AM
     >add grid box to the main containter 
     > styling the nav bar
-        > need to make nav bar go beside page-content
-    > styling the rest of the page
+        > need to make nav bar go beside page-content [ $ ]
+    > basic styling / sizing the rest of the page
+    sucesss
+    pushing 'basic styling / sizing the rest of the page '
     > add rest of html and css from this page https://www.w3schools.com/howto/howto_js_sidenav.asp to get sidebar functionality working
 > plan item > create the pages that will be on the navbar: Home, About Us, Projects
 > - - - - - - - - - - -  plan >
@@ -51,7 +53,7 @@
 // > put user stories inside log file [ X ]
 > set up the css grid layout, create temp bright colors for clear indicators [ $ ]
 > 3 items: header, main, footer [ $ ]
-> after: make the empty nav bar
+> after: make the empty nav bar [ $ ]
 > create the pages that will be on the navbar: Home, 
 > api implemntiation:
 > on every form submission ( form will be a modale { concept traine taught me yesterday} that pops up after x amount of time on page OR x action happened, will ask for users name and email.

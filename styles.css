@@ -11,7 +11,9 @@ header {
 main {
     background-color: #41F0B0;
     display: grid;
-    grid-template-columns: 1fr 5fr
+    grid-template-columns: 1fr 5fr;
+    align-items: stretch;
+    justify-content: stretch
 }
 
 footer {
@@ -21,6 +23,13 @@ footer {
 .navbar {
     background-color: #5C818A;
 }
+
+.page-content {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 500px
+}
+
 
     
 
