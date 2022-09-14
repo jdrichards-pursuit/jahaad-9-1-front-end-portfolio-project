@@ -45,8 +45,8 @@
         > need to make nav bar go beside page-content [ $ ]
     > basic styling / sizing the rest of the page
     sucesss
-    pushing 'basic styling / sizing the rest of the page '
-    > add rest of html and css from this page https://www.w3schools.com/howto/howto_js_sidenav.asp to get sidebar functionality working
+    pushing ' basic styling / sizing the rest of the page '
+    > add rest of html and css from this page https://www.w3schools.com/howto/howto_js_sidenav.asp to get sidebar functionality working [ X ]
 > plan item > create the pages that will be on the navbar: Home, About Us, Projects
 > - - - - - - - - - - -  plan >
 > putting html hardcode into js [ $ ]
@@ -58,6 +58,20 @@
 > api implemntiation:
 > on every form submission ( form will be a modale { concept traine taught me yesterday} that pops up after x amount of time on page OR x action happened, will ask for users name and email.
 > - - - - - - - - - - - - - - >
+
+< --------------------------- >
+< Daily Stand Up              >
+< Tue Sep 14 10:25            >
+< --------------------------- >
+
+1. yesterday: created the nav bar, styled the page for visual purposes, now to add functioanlity to the nav bar, create pages to populate the nav bar with and add modal form submission 
+2. today: add functionality to navbar, add modal that tells user to submit form, review css and add prettier ui elements once page is rudimentirely populated and form functioanlity is finished
+3. blockers: beautification; need more css experience
+
+< --------------------------- >
+<                             >
+< --------------------------- >
+
 
 new proposals:
 on page arrival, will be blank black screen. on mouse movement or key stroke, will present a modal ( animation , computer screen style of text: what is your name: )
