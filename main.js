@@ -36,7 +36,7 @@ fetch(FULL_URL_QUOTES)
     // appending
     footer.append(starterFooter)
 
-// adding the empty nav bar
+// adding the empty nav bar ( / ! \  will need to make this into a function)
 
     // first the element ( list )
     const starterNavBarItem = document.createElement('a')
@@ -48,4 +48,3 @@ fetch(FULL_URL_QUOTES)
 
     // apending
     navBar.append(starterNavBarItem)
-    

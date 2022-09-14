@@ -31,13 +31,19 @@
 > pushing ' set up the css grid layout, creating the temp bright colors for clear indicators | visual purposes '
 > pushed
 > stopping 811pm
-> starting 105am
+> starting 105am september 14, 2022
 > plan item > make the empty nav bar
     > select the nav bar [ $ ]
     > create list then append to nav bar [ $ ]
     > add example pages ( unclickable items ) [ $ ]
     success
-    pushing
+    pushing ' partial completeted nav bar ' on 159am
+    stopping 2:11 AM
+    starting 922 AM
+    >add grid box to the main containter 
+    > styling the nav bar
+        > need to make nav bar go beside page-content
+    > styling the rest of the page
     > add rest of html and css from this page https://www.w3schools.com/howto/howto_js_sidenav.asp to get sidebar functionality working
 > plan item > create the pages that will be on the navbar: Home, About Us, Projects
 > - - - - - - - - - - -  plan >

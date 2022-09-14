@@ -6,10 +6,21 @@ header {
     background-color: #BD205C;
 }
 
+/* applying gridbox to our main element */
+
 main {
-    background-color: #41F0B0
+    background-color: #41F0B0;
+    display: grid;
+    grid-template-columns: 1fr 5fr
 }
 
 footer {
     background-color: #20a0bd;
 }
+
+.navbar {
+    background-color: #5C818A;
+}
+
+    
+
