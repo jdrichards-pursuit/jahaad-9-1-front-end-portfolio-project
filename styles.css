@@ -4,6 +4,8 @@ body {
 
 header {
     background-color: #BD205C;
+    padding-bottom: 10px;
+    padding-top: 10px
 }
 
 /* applying gridbox to our main element */
