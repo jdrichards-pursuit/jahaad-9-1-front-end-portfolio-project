@@ -10,6 +10,7 @@
 < --------------------------- >
 <                             >
 < --------------------------- >
+
 > 12:21 putting html hardcode into js
 > index.html removing h1 and h2 and title metadata
 > main.js adding our h1 and h2
@@ -28,6 +29,8 @@
 // >   styling footer
 > success
 > pushing ' set up the css grid layout, creating the temp bright colors for clear indicators | visual purposes '
+> pushed
+
 > - - - - - - - - - - -  plan >
 > putting html hardcode into js [ $ ]
 // > put user stories inside log file [ X ]
@@ -38,6 +41,7 @@
 > api implemntiation:
 > on every form submission ( form will be a modale { concept traine taught me yesterday} that pops up after x amount of time on page OR x action happened, will ask for users name and email.
 > - - - - - - - - - - - - - - >
+
 new proposals:
 on page arrival, will be blank black screen. on mouse movement or key stroke, will present a modal ( animation , computer screen style of text: what is your name: )
 is their an api that exists that will allow me to populate my site with my linkedin info
