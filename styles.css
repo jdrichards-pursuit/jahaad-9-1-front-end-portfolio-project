@@ -1,0 +1,15 @@
+body {
+    display: grid
+}
+
+header {
+    background-color: #BD205C;
+}
+
+main {
+    background-color: #41F0B0
+}
+
+footer {
+    background-color: #20a0bd;
+}

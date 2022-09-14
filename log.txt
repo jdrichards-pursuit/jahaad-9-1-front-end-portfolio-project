@@ -17,15 +17,28 @@
 > appending
 > success
 > pushing ' putting html hardcode into js ' 
+> pushed
+> stopping 1:42PM
+> starting 7:00Pm
+> plan item > set up the css grid layout, create the temp bright colors for clear indicators [ $ ]
+>   creating styles.css and linking to index.html [ $ ]
+>   creating gridlayout on body [ $ ]
+>   after, setting header, main and footer background temp to bright background colors for visual purposes [ $ ]
+>   adding footer example for visual purposes
+// >   styling footer
+> success
+> pushing ' set up the css grid layout, creating the temp bright colors for clear indicators | visual purposes '
 > - - - - - - - - - - -  plan >
-> putting html hardcode into js [ X ]
-> put stories inside log file [ X ]
-> set up the css grid layout, create temp bright colors for clear indicators
-> 3 items: header, main, footer
+> putting html hardcode into js [ $ ]
+// > put user stories inside log file [ X ]
+> set up the css grid layout, create temp bright colors for clear indicators [ $ ]
+> 3 items: header, main, footer [ $ ]
 > after: make the empty nav bar
 > create the pages that will be on the navbar: Home, 
 > api implemntiation:
-> on every form submission ( form with be a modale { concept traine taught me yesterday} that pops up after x amount of time on page OR x action happened, will ask for users name and email.
+> on every form submission ( form will be a modale { concept traine taught me yesterday} that pops up after x amount of time on page OR x action happened, will ask for users name and email.
 > - - - - - - - - - - - - - - >
 new proposals:
 on page arrival, will be blank black screen. on mouse movement or key stroke, will present a modal ( animation , computer screen style of text: what is your name: )
+is their an api that exists that will allow me to populate my site with my linkedin info
+implement a footer like selection ten on this link https://web-eau.net/en/blog/10-best-footer-html-css-snippets

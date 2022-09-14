@@ -23,3 +23,15 @@ fetch(FULL_URL_QUOTES)
     // appending
     header.append(starterH1)
     pageContent.append(starterH2)
+
+// adding footer example for visual purposes
+    
+    // first the element ( p )
+    const starterFooter = document.createElement('p')
+    starterFooter.textContent = `2022 pe.solutions`
+
+    // selecting our destination for starterFooter
+    const footer = document.querySelector('footer')
+    
+    // appending
+    footer.append(starterFooter)
