@@ -51,6 +51,32 @@
 > plan item > create the pages that will be on the navbar: Home, About Us, Projects, Pursuit, Story [ $ ]
 > success
 > pushing ' create the pages that will be on the navbar: Home, About Us, Projects '
+> pushed
+> created new plan and DSU for today.
+> starting 1220pm
+> Add functionality to the navbar
+    > select the nav bar [ $ ]
+    > event listener on click [ $ ]
+    > take our event find our target and redirect user to targeted page
+    > built nav bar link but cant get the link to function via event listener.
+> create base pages for linked pages on navbar ( copy old )
+> start modal for api via form
+stopping 12:52pm
+starting 2:22pm
+> removing button
+> removing event listener
+> success, fixed link bug
+> to do :
+> populate nav bar with links
+> research our research items2
+
+< - - - - - - - - - - - - - - - RESEARCH
+> toggle my modal 
+> run code every x seconds Javascript web
+> how to take notes when coding
+> 
+
+
 > - - - - - - - - - - -  plan >
 > putting html hardcode into js [ $ ]
 // > put user stories inside log file [ X ]
@@ -62,6 +88,8 @@
 > on every form submission ( form will be a modale { concept traine taught me yesterday} that pops up after x amount of time on page OR x action happened, will ask for users name and email.
 > navbar implentation:
 > on click of navbar items, go to that page
+> api implentation:
+> on every page refresh, do a new api pull request and put a random quote in the header with a new selection of stock pictures as header ( start with one first )
 > - - - - - - - - - - - - - - >
 
 < --------------------------- >
@@ -82,3 +110,21 @@ new proposals:
 on page arrival, will be blank black screen. on mouse movement or key stroke, will present a modal ( animation , computer screen style of text: what is your name: )
 is their an api that exists that will allow me to populate my site with my linkedin info
 implement a footer like selection ten on this link https://web-eau.net/en/blog/10-best-footer-html-css-snippets
+
+< --------------------------- >
+< Daily Stand Up              >
+< Tue Sep 15 11:30            >
+< --------------------------- >
+yesterday: research, bug fixing, research, gain insights on implentation
+today: populating the nav with the blank pages, populating the pages with data, styling, adding last api implentation to home page( Modal that data steals ), creating stock header, stock quotes that show up
+blocks: honestly, nothing but time and my job.
+
+> starting 437pm
+> creating our elements for our pages
+> populating nav via function
+    > created the elements via for loops. took alot lol but got it to work. gonna break here
+> stopping at 5:30pm
+> success
+> created function, which loops through an array which will contain the names of the pages, an array which will contain the link of the pages, and pagenumber variable which will hold the number of pages i want to append
+> pushing populated nav via function'
+> API is down... fudge sticks
