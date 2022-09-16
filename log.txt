@@ -141,3 +141,13 @@ blocks: honestly, nothing but time and my job.
     > pushing 'pre modal addition, removed story page'
     > created the modal that works with a button, just change the trigger from our event listener from a button to window on load 
     > change event listener on line 137
+    > stopping at 309 AM
+    > pushing 'API functionality incomplete, quote is appended to modal succesfully, need to style and put a form inside the modal. After that is done, need to implement modal popping up after a set amount of time post page arrival'
+    > on wakeup, i need to focus on fixing my API functioanlity to match proposal.
+    > starting 849 AM
+    > first thing up, we need to take the code that fires off on button click, and make that event listener function that instead of firing when we have a click, fire when we arrive on the page by using keyword found yesterday
+    > changed line 137 event listener to hover and applied to window
+    > added // loading modal on page load line 166
+    > success console.log, event listner worker on load
+    > // we can use setTImeout() to give time until we execute the function that will toggle the module
+    > pushing 'removed our modal old functionality, need to toggle every page refresh our modal'

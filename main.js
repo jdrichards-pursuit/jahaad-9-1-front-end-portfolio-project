@@ -133,33 +133,51 @@ const trig = document.querySelectorAll("[data-modal-target]")
 const modal = document.querySelectorAll(".modal")
 const close = document.querySelectorAll(".modal-close")
 
-trig.forEach(q => {
-  q.addEventListener("click", event => toggle(event.currentTarget.getAttribute("data-modal-target")));
-});
-close.forEach(q => {
-  q.addEventListener("click", event => toggle(event.currentTarget.closest(".modal").id));
-});
-modal.forEach(q => {
-  q.addEventListener("click", event => {
-    if(event.currentTarget === event.target) toggle(event.currentTarget.id);
-  });
-});
+// trig.forEach(q => {
+//   q.addEventListener('click', event => toggle(event.currentTarget.getAttribute("data-modal-target")));
+// });
+// close.forEach(q => {
+//   q.addEventListener("click", event => toggle(event.currentTarget.closest(".modal").id));
+// });
+// modal.forEach(q => {
+//   q.addEventListener("click", event => {
+//     if(event.currentTarget === event.target) toggle(event.currentTarget.id);
+//   });
+// });
+
+// function toggle(modalId) {
+//   const modals = document.getElementById(modalId);
+
+//   if(getComputedStyle(modals).display==="flex") {  
+//     modals.classList.add("modal-hide");
+//     setTimeout(() => {
+//       document.body.style.overflow = "initial"; 
+//       modals.classList.remove("modal-show", "modal-hide");
+//       modals.style.display = "none";      
+//     }, 200);
+//   }
+//   else {
+//     document.body.style.overflow = "hidden"; 
+//     modals.style.display = "flex";
+//     modals.classList.add("modal-show");
+//   }
+// }
+// loading modal on page load
+const modalTarget = document.querySelector(".modal")
+window.addEventListener('load', (event) => {
+  console.log('Page is fully loaded')
+  toggle2(modalTarget)
+  console.log (modalTarget)
+  onload = (event) => { 
+    console.log('page is fully loaded')
+  };
+})
 
 
-function toggle(modalId) {
-  const modals = document.getElementById(modalId);
-
-  if(getComputedStyle(modals).display==="flex") {  
-    modals.classList.add("modal-hide");
-    setTimeout(() => {
-      document.body.style.overflow = "initial"; 
-      modals.classList.remove("modal-show", "modal-hide");
-      modals.style.display = "none";      
-    }, 200);
-  }
-  else {
-    document.body.style.overflow = "hidden"; 
-    modals.style.display = "flex";
-    modals.classList.add("modal-show");
-  }
+function toggle2(modalId) { // put model target here
+  const modals = modalId
+  modals.classList.add('modal-hide')
 }
+toggle2(modalTarget)
+
+modalTarget.add('modal-hide')
