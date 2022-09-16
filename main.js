@@ -3,11 +3,38 @@ const PURSUIT_URL_QUOTES = '/api/quotes'
 const FULL_URL_QUOTES = `${PURSUIT_BASE_URL}${PURSUIT_URL_QUOTES}`
 console.log(`QUOTES API URL: ${FULL_URL_QUOTES}`)
 
+const displayQuote = document.createElement('p')
 // time for the fetch
 fetch(FULL_URL_QUOTES)
 .then(res => res.json())
 .then(res => {
+    const data = res
     console.log(res)
+        //This is calling the random advice from the api slip
+        // rolling a number to see which is our quote
+        // we need to roll from 1-30
+        const roll = Math.floor(Math.random() * 30)
+        let quote = null
+
+        for (let i = 0; i < res.length; i++) { // exist to iterate through our retrieved data object
+          quote = data[roll].quote;
+          const quoteStorage = document.querySelector('.modal-content')
+
+          
+        }
+        const modalStorage = document.querySelector('.modal-content')
+        const modalContent = document.createElement('p')
+        modalContent.textContent = data[roll].quote
+        console.log(modalContent)
+        console.log(modalStorage)
+        modalStorage.append(modalContent)
+        console.log(data[roll].quote)
+        console.log(quote)
+        // appendng to our modal
+
+        // displayQuote.textContent = `${adviceData[0].quote}`
+        // console.log(displayQuote)
+
 })
 
 // adding our h1 and h2
@@ -101,3 +128,38 @@ navBar.addEventListener('click', event => {
 // }
 // populateNav(arrOfPages,arrOfPagesLinks)
 
+// modal functionality 
+const trig = document.querySelectorAll("[data-modal-target]")
+const modal = document.querySelectorAll(".modal")
+const close = document.querySelectorAll(".modal-close")
+
+trig.forEach(q => {
+  q.addEventListener("click", event => toggle(event.currentTarget.getAttribute("data-modal-target")));
+});
+close.forEach(q => {
+  q.addEventListener("click", event => toggle(event.currentTarget.closest(".modal").id));
+});
+modal.forEach(q => {
+  q.addEventListener("click", event => {
+    if(event.currentTarget === event.target) toggle(event.currentTarget.id);
+  });
+});
+
+
+function toggle(modalId) {
+  const modals = document.getElementById(modalId);
+
+  if(getComputedStyle(modals).display==="flex") {  
+    modals.classList.add("modal-hide");
+    setTimeout(() => {
+      document.body.style.overflow = "initial"; 
+      modals.classList.remove("modal-show", "modal-hide");
+      modals.style.display = "none";      
+    }, 200);
+  }
+  else {
+    document.body.style.overflow = "hidden"; 
+    modals.style.display = "flex";
+    modals.classList.add("modal-show");
+  }
+}

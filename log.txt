@@ -139,3 +139,5 @@ blocks: honestly, nothing but time and my job.
     > bugfix: had to change homeLink projectsLink pursuitLink and storyLink to match link properly
     > copying and pasting to pursuit and story page
     > pushing 'pre modal addition, removed story page'
+    > created the modal that works with a button, just change the trigger from our event listener from a button to window on load 
+    > change event listener on line 137
