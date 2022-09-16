@@ -128,3 +128,14 @@ blocks: honestly, nothing but time and my job.
 > created function, which loops through an array which will contain the names of the pages, an array which will contain the link of the pages, and pagenumber variable which will hold the number of pages i want to append
 > pushing populated nav via function'
 > API is down... fudge sticks
+> ^^ api was not down, internet was lulz
+> after i return, i will populate the page with data. also need to populate all the blank pages with the navbar
+> starting at 10:24
+> populating blank pages with navbar
+> / ! \ for now, i will hardcode each page into html, with independent files but for fun in the future; i should populate the page in JS from blank index.html, so when i add more features i can just manipulate one main.js
+> first for the aboutUS
+    > copying code
+    > changing html data to match corrosponding page data
+    > bugfix: had to change homeLink projectsLink pursuitLink and storyLink to match link properly
+    > copying and pasting to pursuit and story page
+    > pushing 'pre modal addition, removed story page'
