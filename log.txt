@@ -151,3 +151,7 @@ blocks: honestly, nothing but time and my job.
     > success console.log, event listner worker on load
     > // we can use setTImeout() to give time until we execute the function that will toggle the module
     > pushing 'removed our modal old functionality, need to toggle every page refresh our modal'
+    > starting 842AM
+    > so our quote is stored inside modalStorage .
+    > we need to put a form inside modal storage.
+    > add welcome to the site to the form

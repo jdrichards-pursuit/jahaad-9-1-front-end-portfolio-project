@@ -221,6 +221,15 @@ body {
   cursor: pointer;
 } */
 
+.is-hidden {
+  display:none
+}
+  
+img {
+  width: 100%;
+  height: auto
+}
+
 
 @media(max-width: 750px) {
   .modal-container {
@@ -231,6 +240,4 @@ body {
   }
 }
 
-
-    
 

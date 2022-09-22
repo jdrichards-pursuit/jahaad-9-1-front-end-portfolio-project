@@ -36,6 +36,7 @@ fetch(FULL_URL_QUOTES)
         // console.log(displayQuote)
 
 })
+// make a timer th
 
 // adding our h1 and h2
     const starterH1 = document.createElement('h1')
@@ -174,10 +175,23 @@ window.addEventListener('load', (event) => {
 })
 
 
-function toggle2(modalId) { // put model target here
-  const modals = modalId
-  modals.classList.add('modal-hide')
-}
-toggle2(modalTarget)
+// function toggle2(modalId) { // put model target here
+//   const modals = modalId
+//   modals.classList.add('modal-hide')
+// }
+// toggle2(modalTarget)
 
-modalTarget.add('modal-hide')
+// modalTarget.add('modal-hide')
+
+function modalToggle() {
+  modalStorage = document.querySelector('.modal-content')
+  // console.log('test')
+  // if (modalStorage.style.display === "none"){
+  //   modalStorage.style.display = 'block'
+  // } else {
+  //   modalStorage.style.display = 'none'
+  // }
+  modalStorage.classList.toggle("is-hidden")
+}
+setTimeout(modalToggle, 5000)
+modalToggle()
