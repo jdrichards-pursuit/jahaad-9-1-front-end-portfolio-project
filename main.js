@@ -12,6 +12,7 @@ fetch(FULL_URL_QUOTES)
     const data = res
     console.log(res)
     headerAPIStorage = document.querySelector('.apiHeader')
+    const headerQuote = document.querySelector('header')
         //This is calling the random advice from the api slip
         // rolling a number to see which is our quote
         // we need to roll from 1-30
@@ -26,7 +27,8 @@ fetch(FULL_URL_QUOTES)
         }
         // APIcall.append(document.querySelector('header div'))
         const modalStorage = document.querySelector('.modal-content')
-        const modalContent = document.createElement('p')
+        // const modalContent = document.createElement('p')
+        const modalContent = document.querySelector('.quote')
         modalContent.textContent = data[roll].quote
         console.log(modalContent)
         console.log(modalStorage)
