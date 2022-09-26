@@ -2,6 +2,7 @@ const PURSUIT_BASE_URL = 'https://pursuit-9-1-full-stack-project.herokuapp.com'
 const PURSUIT_URL_QUOTES = '/api/quotes'
 const FULL_URL_QUOTES = `${PURSUIT_BASE_URL}${PURSUIT_URL_QUOTES}`
 console.log(`QUOTES API URL: ${FULL_URL_QUOTES}`)
+const singleQuote = ''
 
 const displayQuote = document.createElement('p')
 // time for the fetch
@@ -10,18 +11,20 @@ fetch(FULL_URL_QUOTES)
 .then(res => {
     const data = res
     console.log(res)
+    headerAPIStorage = document.querySelector('.apiHeader')
         //This is calling the random advice from the api slip
         // rolling a number to see which is our quote
         // we need to roll from 1-30
         const roll = Math.floor(Math.random() * 30)
         let quote = null
-
         for (let i = 0; i < res.length; i++) { // exist to iterate through our retrieved data object
           quote = data[roll].quote;
           const quoteStorage = document.querySelector('.modal-content')
-
           
+          singleQuote.textContent = quote
+          console.log(headerAPIStorage)
         }
+        // APIcall.append(document.querySelector('header div'))
         const modalStorage = document.querySelector('.modal-content')
         const modalContent = document.createElement('p')
         modalContent.textContent = data[roll].quote
@@ -30,6 +33,9 @@ fetch(FULL_URL_QUOTES)
         modalStorage.append(modalContent)
         console.log(data[roll].quote)
         console.log(quote)
+        const singleQuote1 = document.querySelector('.modal-content').textContent = 'test'
+        console.log(quote)
+        
         // appendng to our modal
 
         // displayQuote.textContent = `${adviceData[0].quote}`
@@ -39,10 +45,13 @@ fetch(FULL_URL_QUOTES)
 // make a timer th
 
 // adding our h1 and h2
-    const starterH1 = document.createElement('h1')
+    // const starterH1 = document.createElement('h1')
+    const apiP = document.createElement('p')
+    apiP.textcontent = 
     starterH1.textContent = 'Frontend Portfolio Project'
     const starterH2 = document.createElement('h2')
     starterH2.textContent = 'Jahaad Petty'
+    
 
     // selecting our destination for starterH1 & starterH2 ( header and article class=page-content )
     const header = document.querySelector('.page-header')
@@ -130,9 +139,9 @@ navBar.addEventListener('click', event => {
 // populateNav(arrOfPages,arrOfPagesLinks)
 
 // modal functionality 
-const trig = document.querySelectorAll("[data-modal-target]")
-const modal = document.querySelectorAll(".modal")
-const close = document.querySelectorAll(".modal-close")
+// const trig = document.querySelectorAll("[data-modal-target]")
+// const modal = document.querySelectorAll(".modal")
+// const close = document.querySelectorAll(".modal-close")
 
 // trig.forEach(q => {
 //   q.addEventListener('click', event => toggle(event.currentTarget.getAttribute("data-modal-target")));
@@ -164,15 +173,15 @@ const close = document.querySelectorAll(".modal-close")
 //   }
 // }
 // loading modal on page load
-const modalTarget = document.querySelector(".modal")
-window.addEventListener('load', (event) => {
-  console.log('Page is fully loaded')
-  toggle2(modalTarget)
-  console.log (modalTarget)
-  onload = (event) => { 
-    console.log('page is fully loaded')
-  };
-})
+// const modalTarget = document.querySelector(".modal")
+// window.addEventListener('load', (event) => {
+//   console.log('Page is fully loaded')
+//   toggle2(modalTarget)
+//   console.log (modalTarget)
+//   onload = (event) => { 
+//     console.log('page is fully loaded')
+//   };
+// })
 
 
 // function toggle2(modalId) { // put model target here
@@ -183,15 +192,31 @@ window.addEventListener('load', (event) => {
 
 // modalTarget.add('modal-hide')
 
-function modalToggle() {
-  modalStorage = document.querySelector('.modal-content')
-  // console.log('test')
-  // if (modalStorage.style.display === "none"){
-  //   modalStorage.style.display = 'block'
-  // } else {
-  //   modalStorage.style.display = 'none'
-  // }
-  modalStorage.classList.toggle("is-hidden")
+// function modalToggle() {
+//   modalStorage = document.querySelector('.modal-content')
+//   // console.log('test')
+//   // if (modalStorage.style.display === "none"){
+//   //   modalStorage.style.display = 'block'
+//   // } else {
+//   //   modalStorage.style.display = 'none'
+//   // }
+//   modalStorage.classList.toggle("is-hidden")
+// }
+// setTimeout(modalToggle, 5000)
+// modalToggle()
+
+// header carousel function
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 30000); // 30 seconds each element 
 }
-setTimeout(modalToggle, 5000)
-modalToggle()

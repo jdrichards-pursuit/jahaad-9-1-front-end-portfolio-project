@@ -155,3 +155,10 @@ blocks: honestly, nothing but time and my job.
     > so our quote is stored inside modalStorage .
     > we need to put a form inside modal storage.
     > add welcome to the site to the form
+
+
+> okay. 
+> i would like to change the header to be a slideshow of 4 images, that a quote changes each time the slide changes
+> inserted the carousel function, now to find four images for the header. i want them to contract the red background color so greenish; same as the color of the main background so green.
+> im using midjourney API bot to generate 4 green images for the header
+> after, where we see ' front end portoflio project ' will be a quote that changes on every page refresh
