@@ -32,15 +32,18 @@
                     <h2>Leave a message!</h2> 
                     <form class="message">
                         <label for="fname">First name:</label><br>
-                        <input type="text" id="fname" name="fname"><br>
+                        <input type="text" id="fname" name="fname" value=""><br>
                         <label for="lname">Last name:</label><br>
-                        <input type="text" id="lname" name="lname"><br>
+                        <input type="text" id="lname" name="lname" value=""><br>
                         <label for="email">E-Mail:</label><br>
-                        <input type="email" id="email" name="email" required><br>
+                        <input type="email" id="email" name="email" value="" required><br>
                         <label class="messagebox" for="message">Message:</label><br>
-                        <textarea id="email" name="email" rows='3' cols="50"></textarea><br>
+                        <textarea id="message" name="message" rows='3' cols="50" value="" ></textarea><br>
                         <input type='submit' value="submit">
                     </form>
+                </div>
+                <h2 class="messageHeader">Messages</h2>
+                <div class='socialschild' id="messageStorage">
                 </div>
             </div>
             <!-- <img src="/omg.jpeg"> -->

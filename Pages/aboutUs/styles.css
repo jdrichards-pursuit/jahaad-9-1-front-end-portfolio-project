@@ -1,7 +1,8 @@
 
 *{
   padding: 0px;
-  margin: 0px
+  margin: 0px;
+  font-family: monospace;
 }
 
 
@@ -78,4 +79,22 @@ h1 {
 
 .messagebox {
   height:200px;
+}
+
+.messageHeader {
+  padding-top: 10px;
+  padding-bottom: 10px
+}
+
+#messageStorage {
+  width: 95%
+}
+
+.messageInput {
+  display: inline-block;
+  vertical-align: center;
+  width: 45%;
+  margin-top: 5px;
+  background-color:#36C994;
+  margin-left: 10px;
 }
