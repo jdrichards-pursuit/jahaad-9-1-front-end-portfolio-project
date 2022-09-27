@@ -1,3 +1,4 @@
+![screenshot](screen.png)
 # Here is a basic page containg a header, navbar and area for page content.
  - Site pulls a random 30 quotes from Pursuits random quote API and displays on a single unique quote each time the page is visted.
  - Home page is blank but has a use in the future
