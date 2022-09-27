@@ -1,38 +1,77 @@
+
+*{
+  padding: 0px;
+  margin: 0px
+}
+
+
+
 body {
     display: grid
 }
 
-header {
-    background-color: #BD205C;
-    padding-bottom: 10px;
-    padding-top: 10px
+.page-header-image {
+  background-image: url(/header.png);
+  padding-top: 300px;
 }
-
 /* applying gridbox to our main element */
 
 main {
     background-color: #41F0B0;
     display: grid;
     grid-template-columns: 1fr 5fr;
-    align-items: stretch;
-    justify-content: stretch
 }
 
 footer {
     background-color: #20a0bd;
+    height: 20px
 }
 
 .navbar {
     background-color: #5C818A;
     display: grid;
+    width: 150px;
+    justify-items: center;
 }
+
 
 .page-content {
     width: 100%;
-    height: 100%;
-    padding-bottom: 500px
+    height: 100%
 }
 
+.header {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.quote {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-    
+.igbutton {
+  height: 128px;
+  width:128px
+}
 
+.socials {
+  border: 1px solid whitesmoke;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+
+.socialschild {
+  display: inline-block;
+  border: 1px solid greenyellow;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+h1 {
+  color: #20a0bd;
+  text-align: center;
+}
