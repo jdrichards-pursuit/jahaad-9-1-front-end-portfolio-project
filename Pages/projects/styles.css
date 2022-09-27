@@ -51,3 +51,27 @@ footer {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.weatherApp {
+  height: 512px;
+  width: 512px
+}
+
+.projectContainer {
+  border: 1px solid whitesmoke;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+
+.weatherApp {
+  display: inline-block;
+  border: 1px solid greenyellow;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+h2 {
+  color: whitesmoke;
+  padding-bottom: 30px;
+}

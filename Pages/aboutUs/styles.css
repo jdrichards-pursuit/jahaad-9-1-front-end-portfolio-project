@@ -75,3 +75,7 @@ h1 {
   color: #20a0bd;
   text-align: center;
 }
+
+.messagebox {
+  height:200px;
+}

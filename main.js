@@ -104,6 +104,12 @@ navBar.addEventListener('click', event => {
     // console.log(event.target.className) // our target is event.target.className
 })
 
+const messageForm = document.querySelector('message')
+messageForm.addEventListener('click', event => {
+
+})
+
+
 // Populating our NavBar
     // const pageNumber = 4
     // const home = 'Home'
