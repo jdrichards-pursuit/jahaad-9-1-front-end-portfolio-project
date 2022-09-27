@@ -73,6 +73,7 @@ footer {
 }
 
 h1 {
+  padding-top: 10px;
   color: #20a0bd;
   text-align: center;
 }
