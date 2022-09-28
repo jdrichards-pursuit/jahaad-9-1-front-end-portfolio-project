@@ -35,7 +35,12 @@ messageForm.addEventListener('submit', event => {
   lastNameValue = document.getElementById('lname').value
   emailValue = document.getElementById('email').value
   messageValue = document.getElementById('message').value
-  
+
+  // testing local storage with first name value
+  // localStorage.setItem('firstName', `${firstNameValue}`)
+  // const localFirstName = localStorage.getItem('firstname')
+  // console.log(localFirstName)
+
   // Logging our inputs
   console.log(`= = inputs = =`)
   console.log(firstNameValue,lastNameValue,emailValue,messageValue)

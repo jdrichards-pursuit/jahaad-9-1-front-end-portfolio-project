@@ -1,7 +1,8 @@
 
 *{
   padding: 0px;
-  margin: 0px
+  margin: 0px;
+  font-family: monospace;
 }
 
 
@@ -51,3 +52,30 @@ footer {
   left: 50%;
   transform: translate(-50%, -50%);
 }  
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+#row1 {
+  background-color:#36c08e
+}
+
+#row2 {
+  background-color: #5dbd99;
+}
+
+#row3{
+  background-color:#36c08e
+}
+
+img {
+  height: 128px;
+  width: 128px;
+}
