@@ -5,4 +5,4 @@
  - Projects page contains one single project, the weather app project. Projects are displayed as a hyperlinked image.
  - Contact Us page gives links to socials and has a form for user to submit their information and message to site administator. Form is set to prevent default behavior. Inputs are added to a message box below the form. 
  - Pursuit page will showcase my time at pursuit but is blank for now.
- - Story page contains 3 buttons that allows the users to view the last 3 published articles from one of the brands shown on the screen. For now there is two news sources: The Wall Street Journal and Tech Crunch.
+ - Story page contains 3 buttons that allows the users to view the last 3 published articles from one of the brands shown on the screen. For now there is three news sources: The Wall Street Journal Tech Crunch and Tesla. User can also use trash can button to clear the webpage of articles.
