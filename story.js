@@ -23,6 +23,7 @@ fetch(FULL_URL_QUOTES)
 
 const TC_NEWS_URL = 'https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=939315bc84374110960eec2aa85bd20a'
 const WSJ_NEWS_URL = 'https://newsapi.org/v2/everything?domains=wsj.com&apiKey=939315bc84374110960eec2aa85bd20a'
+const TESLA_NEWS_URL = 'https://newsapi.org/v2/everything?q=tesla&from=2022-08-28&sortBy=publishedAt&apiKey=939315bc84374110960eec2aa85bd20a'
 
 
 const row1 = document.getElementById('row1')
@@ -31,6 +32,7 @@ const row3 = document.getElementById('row3')
 
 const wsjButton = document.querySelector('.wsj')
 const tcButton = document.querySelector('.tc')
+const teslaButton = document.querySelector('.tesla')
 const trashButton = document.querySelector('.trash')
 
 wsjButton.addEventListener('click', event=> {
@@ -72,6 +74,42 @@ wsjButton.addEventListener('click', event=> {
 tcButton.addEventListener('click', event=> {
     if(!document.querySelector('h1')){
         fetch(TC_NEWS_URL)
+.then(res => res.json())
+.then(res => {
+    article1 = res.articles[0]
+    article2 = res.articles[1]
+    article3 = res.articles[2]
+
+    const article1Title = document.createElement('h1')
+    const article2Title = document.createElement('h1')
+    const article3Title = document.createElement('h1')
+    const article1Content = document.createElement('p')
+    const article2Content = document.createElement('p')
+    const article3Content = document.createElement('p')
+
+    article1Title.textContent = article1.title
+    article2Title.textContent = article2.title
+    article3Title.textContent = article3.title
+    article1Content.textContent = article1.content
+    article2Content.textContent = article2.content
+    article3Content.textContent = article3.content
+
+    row1.append(article1Title,article1Content)
+    row2.append(article2Title,article2Content)
+    row3.append(article3Title,article3Content)
+    
+
+
+    console.log(article1,article2,article3)
+})
+} else {
+    console.log('overfill')
+}
+})
+
+teslaButton.addEventListener('click', event => {
+    if(!document.querySelector('h1')){
+        fetch(TESLA_NEWS_URL)
 .then(res => res.json())
 .then(res => {
     article1 = res.articles[0]
